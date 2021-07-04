@@ -1,9 +1,39 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin:0;
 }
 h1{
     font-size:45px;
 }
 .name{
     color:orange;
+}
+section{
+    display: flex;
+}
+.head{
+    width:50%;
+    padding-left:80px;
+}
+.img{
+    width:50%;
+}
+.img img{
+    width:80%;
+}
+.head p{
+    font-size:14px;
+}
+.hireme a{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding:10px 40px;
+    font-weight: 700;
+    border-radius:5px;
+    color:white;
+}
+.top{
+    background-image: url(images/top-banner.png);
+    background-image: no-repeat;
+    background-size: cover;
 }
