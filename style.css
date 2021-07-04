@@ -16,7 +16,7 @@ section{
     padding-left:80px;
 }
 .img{
-    width:50%;
+    width:40%;
 }
 .img img{
     width:80%;
@@ -36,4 +36,33 @@ section{
     background-image: url(images/top-banner.png);
     background-image: no-repeat;
     background-size: cover;
+}
+.second-img{
+    width:30%;
+    padding-left:50px;
+}
+.second-img img{
+    width:100%;
+}
+.second-head{
+    width:50%;
+    padding-left: 100px;
+}
+.second{
+    margin-top:150px;
+}
+.resume a{
+    text-decoration: none;
+    background-image: linear-gradient(black,orange);
+    padding:10px 50px;
+    color:white;
+    border-radius: 5px;
+}
+.second-head p{
+    color:red;
+}
+.second{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
